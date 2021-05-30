@@ -1,13 +1,13 @@
 <template>
-  <ul v-for="history in historys" :key="history.id">
+  <ul v-for="profile in profiles" :key="profile.id">
     <li>
       <button>
-        {{ history.id }}
-        {{ history.Fname }}
-        {{ history.Lname }}
-        {{ history.Day }}
-        {{ history.Old }}
-        {{ history.Title }}
+        {{ profile.id }}
+        {{ profile.Fname }}S
+        {{ profile.Lname }}
+        {{ profile.Day }}
+        {{ profile.Old }}
+        {{ profile.Title }}
       </button>
     </li>
   </ul>
@@ -16,7 +16,7 @@
 <script>
 export default {
   data: () => ({
-    historys: [
+    profiles: [
       { id: "Profile" },
       { id: "ชื่อ", Fname: "พิรยะ" },
       { id: "นามสกุล", Lname: "ยอดแก้ว" },

@@ -1,15 +1,15 @@
 <template>
-  <historys></historys>
+  <profiles></profiles>
   <contacts></contacts>
 </template>
 
 <script>
-import Historys from "./page/Historys.vue";
+import Profiles from "./page/Profiles.vue";
 import Contacts from "./page/Contacts.vue";
 export default {
   name: "App",
   components: {
-    Historys: Historys,
+    Profiles: Profiles,
     Contacts: Contacts,
   },
 };
